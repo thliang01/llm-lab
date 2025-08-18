@@ -1,0 +1,15 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual env
+.env
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 課程輸出（各課程 outputs 目錄）
+courses/**/outputs/
