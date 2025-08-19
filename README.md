@@ -1,4 +1,5 @@
 # Twinkle LLM Labs
+<img width="800" height="215" alt="twinkle_lab (1)" src="https://github.com/user-attachments/assets/a532b1dd-1d04-406c-94ba-966dcea672d4" />
 
 這個 repo 收納 **Twinkle AI 社群** 的 LLM 教學課程，採 **Colab-first** 設計。  
 學員無需本地部署模型，只要透過 Google Colab，就能完整體驗 **從 API 呼叫、資料生成、品質檢查，到格式化與釋出** 的流程。
