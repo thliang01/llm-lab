@@ -1,5 +1,4 @@
 # Twinkle LLM Labs
-<img width="800" height="215" alt="twinkle_lab (1)" src="https://github.com/user-attachments/assets/a532b1dd-1d04-406c-94ba-966dcea672d4" />
 
 這個 repo 收納 **Twinkle AI 社群** 的 LLM 教學課程，採 **Colab-first** 設計。  
 學員無需本地部署模型，只要透過 Google Colab，就能完整體驗 **從 API 呼叫、資料生成、品質檢查，到格式化與釋出** 的流程。
@@ -8,19 +7,6 @@
 
 ## 📚 課程列表
 - [2025-08：使用 Gemma-3-12B-it API 建立對話式訓練資料集](courses/2025-08-llm-dialogue-dataset/README.md)
-
----
-
-## 🚀 快速開始
-請進入各課程資料夾查看 README，裡面會提供對應的 Colab badge。  
-
-以第一門課為例：[2025-08-llm-dialogue-dataset](courses/2025-08-llm-dialogue-dataset/README.md)  
-建議依序執行以下 notebooks：
-- 00_setup_and_api_call.ipynb  
-- 01_generate_dialogs.ipynb  
-- 02_quality_checks.ipynb  
-- 03_format_for_training.ipynb  
-- 04_export_and_license.ipynb  
 
 ---
 
