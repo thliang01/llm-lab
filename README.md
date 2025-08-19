@@ -20,7 +20,7 @@
 
 ## 🤝 貢獻
 我們歡迎貢獻！  
-請參考 [`shared/CONTRIBUTING.md`](shared/CONTRIBUTING.md) 與 [`shared/STYLEGUIDE.md`](shared/STYLEGUIDE.md) 了解如何參與。
+請參考 [`CONTRIBUTING.md`](CONTRIBUTING.md) 與 [`STYLEGUIDE.md`](STYLEGUIDE.md) 了解如何參與。
 
 ---
 
