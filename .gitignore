@@ -10,6 +10,3 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
-
-# 課程輸出（各課程 outputs 目錄）
-courses/**/outputs/

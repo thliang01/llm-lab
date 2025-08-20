@@ -1,0 +1,14 @@
+{
+  "input_total": 5,
+  "kept": 1,
+  "dropped": 4,
+  "drop_reasons": {
+    "too_short": 4
+  },
+  "length_stats_kept": {
+    "min": 887,
+    "max": 887,
+    "mean": 887,
+    "median": 887
+  }
+}
