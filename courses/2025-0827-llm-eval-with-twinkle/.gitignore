@@ -1,0 +1,11 @@
+# 忽略 config.yaml
+config.yaml
+
+# 忽略資料集
+datasets/
+
+# 忽略日誌
+logs/
+
+# 忽略結果
+results/
