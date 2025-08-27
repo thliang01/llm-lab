@@ -7,7 +7,7 @@
 ---
 
 ## 📚 課程列表
-- [2025-08：使用 Gemma-3-12B-it API 建立對話式訓練資料集](courses/2025-08-llm-dialogue-dataset/README.md)
+- [2025-08：使用 Gemma-3-12B-it API 建立對話式訓練資料集](courses/2025-0820-llm-dialogue-dataset/README.md)
 
 ---
 
