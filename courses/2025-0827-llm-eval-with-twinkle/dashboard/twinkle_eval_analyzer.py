@@ -5,6 +5,8 @@ import plotly.express as px
 import plotly.graph_objects as go
 from typing import Dict, List, Any, Optional
 import io
+import os
+from pathlib import Path
 
 # 設定頁面配置
 st.set_page_config(
@@ -385,9 +387,27 @@ def main():
     
     with col2:
         # 顯示 Twinkle Logo
-        try:
-            st.image("../assets/twinkle_AI_llm_lab.png", width=200)
-        except:
+        def find_logo_path():
+            """尋找 logo 檔案的正確路徑"""
+            possible_paths = [
+                "../assets/twinkle_AI_llm_lab.png",  # 本地開發環境
+                "assets/twinkle_AI_llm_lab.png",     # 可能的相對路徑
+                "courses/2025-0827-llm-eval-with-twinkle/assets/twinkle_AI_llm_lab.png",  # Streamlit Cloud 完整路徑
+                Path(__file__).parent.parent / "assets" / "twinkle_AI_llm_lab.png"  # 基於當前檔案的路徑
+            ]
+            
+            for path in possible_paths:
+                if os.path.exists(str(path)):
+                    return str(path)
+            return None
+        
+        logo_path = find_logo_path()
+        if logo_path:
+            try:
+                st.image(logo_path, width=200)
+            except Exception as e:
+                st.markdown('<div style="text-align: center; font-size: 4rem;">✨</div>', unsafe_allow_html=True)
+        else:
             # 如果找不到 logo，顯示 emoji
             st.markdown('<div style="text-align: center; font-size: 4rem;">✨</div>', unsafe_allow_html=True)
         
